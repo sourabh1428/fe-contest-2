@@ -1,0 +1,349 @@
+
+* {padding: 0; margin: 0;}
+
+.flex-container  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(249, 253, 255);
+  position: sticky;
+  z-index: 1001;
+}
+
+.logo {
+  margin: 0 0 0 .45em;
+}
+    
+    .logo a {
+      color: rgb(52, 52, 52);
+      color: #373737;
+      font-family: Roboto;
+      font-size: 39px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-decoration: none;
+    }
+    #navin{
+        background: linear-gradient(180deg, #2B7AC1 0%, #3AB26F 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Roboto;
+font-size: 39px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    #navsp{
+        color: #373737;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+
+    }
+
+    .logo, .navigation {
+        list-style: none;
+       
+    }
+    .logo,.navigation
+
+    .logo a, .navigation a {
+        text-decoration: none;
+        letter-spacing: .45rem;
+        
+    }
+
+.navigation  {
+  display: flex;
+}
+
+.navigation a {
+  display: block;
+  padding: 1em;
+  
+
+color: #373737;
+font-family: Georgia;
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.navigation a:hover {
+    background: #00ace6;
+}
+.btn-nav{
+    margin-top: 10px;
+    width: 223px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 23.5px;
+background: #184655;
+box-shadow: 2px 3px 2px 0px rgba(0, 0, 0, 0.25);
+
+
+
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+
+
+}
+
+.hero{
+
+    position:relative;
+    height: 500px;
+    width: 700px;
+    padding: 70px;
+    top: 0px;
+
+
+
+}
+.img-hero{
+    
+    position: absolute;
+    
+    height: 742px;
+    width: 1386px;
+
+    border-radius: 50px;
+}
+
+.hero-heading{
+    height: 136px;
+    width: 424px;
+
+    position: absolute;
+    padding:300px 20px 80px 100px;
+color: #184655;
+font-family: sans-serif;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.inp-hero{
+    width: 1000px;
+    position: absolute;
+    padding:500px 29px 90px 100px;
+
+}
+#hero-in{
+    color: #727272;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118%; /* 25.96px */
+
+    
+    border: none;
+    width: 546px;
+    height: 78.93px;
+    flex-shrink: 0;
+    border-radius: 19px;
+    background: #FFF;
+
+}
+
+#hero-btn{
+    color: white;
+    font-style: sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    width: 189.595px;
+    height: 78.93px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 0px 19px 19px 0px;
+    background: #184655;
+}
+#hero-btn:hover{
+    cursor: pointer;
+}
+
+.hashtags{
+    display: inline;
+inline-size: 2px; 
+color: #53748C;
+font-family: Roboto;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hero-img-3{
+    position: relative;
+    width: 605.764px;
+height: 363.997px;
+
+margin: -300px 10px -1px 720px;
+}
+
+
+.l-blog-sec{
+    margin-top: 800px;
+    height: 512px;
+    width: 1386px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 40px;
+background: url(2.png), lightgray 50% / cover no-repeat;
+box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.10);
+padding: 22px;
+
+}
+.l-cont-1{
+    height: 460px;
+    background: url(4.png),lightgray 50% / cover no-repeat;
+    width: 671px;
+
+flex-shrink: 0;
+    border-radius: 15px;
+
+}
+.l-cont-2{
+    padding: 20px;
+    height: 460px;
+    border-radius: 15px;
+}
+#l-content-h1{
+    display: flex;
+    position: absolute;
+    height: 49px;
+    width: 613px;
+    font-weight: 500;
+    color: #404040;
+font-family: sans-serif;
+font-size: 42px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+#l-content-p2{
+    
+    position: absolute;
+    display: flex;
+    width: 624px;
+    height: 348px;
+    color: #464343;
+    text-align: justify;
+    font-family: Segoe UI;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+
+.container-more{
+    display: flex;
+    width: 1380px;
+    height: 500px;
+    margin-top: 100px;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.item{
+    width: 431.532px;
+    height: 469px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: linear-gradient(146deg, rgba(249, 247, 247, 0.10) 0%, rgba(249, 247, 247, 0.40) 100%);
+    box-shadow: 0px 2px 20px -1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+}
+.p2-photu{
+    width: 431.532px;
+height: 272.614px;
+flex-shrink: 0; 
+border-radius: 20px;
+background: url(5.png), lightgray 50% / cover no-repeat;
+}
+.zab{
+    display: flex;
+    width: 394.063px;
+    height: 31.654px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #4A4848;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.zabc{
+    color: rgba(111, 110, 110, 0.84);
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.zabcd{
+    
+    display: flex;
+width: 394.063px;
+height: 71.707px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #464343;
+text-align: justify;
+font-family: Segoe UI;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.zb{
+    display: flex;
+width: 70px;
+height: 23px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #213949;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+
+.foot{
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    display: flex;
+}
+.fl{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+.fr{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
